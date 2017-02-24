@@ -1,4 +1,4 @@
-function mouseTracker(){
+function MouseTracker(){
 	var queries = [];
 	this.setWatcher = function(){
 		if(arguments.length >= 1){
@@ -114,4 +114,3 @@ function mouseTracker(){
 	}
 }
 
-var mt = new mouseTracker();
