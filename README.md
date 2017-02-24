@@ -10,8 +10,8 @@ it's simple. Just instanciate MouseTracker object and then call setWatcher metho
    setWatcher(querySelector, [,enterCallback , [,movementCallback, [, zoomRatio)  
    
    querySelector:String:
-   this parameter is for get MouseTracker looking up in which elements it will set the watcher
-   string syntax is like jquery's selectors, for example: "img", ".example", ".parent .child", would work.
+   this parameter is for get MouseTracker looking up in which elements it will set the watcher.
+   String syntax is like jquery's selectors, for example: "img", ".example", ".parent .child", would work.
    
    enterCallback:Function (optional): 
    enterCallback is an optional callback that would be called in case of user gets mouse over the element
