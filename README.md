@@ -31,9 +31,10 @@ it's simple. Just instanciate MouseTracker object and then call setWatcher metho
       setWatcher(querySelector);
       
      
-     if you want to stop watching an element you only has to call unsetWatcher() and pass de same query you did to setWatcher(). 
+     if you want to stop watching an element you only have to call unsetWatcher() and pass de same query you did to setWatcher(). 
 
 # WORKING ON:
-   - making more flexible calls.
+   - making more flexible calls. For example a call with an opts object as param instead of single params.
    - adding a zoom zone in which you can move mouse without need of do it over the element.
    - deleting watchers no matter what query had been called.
+   - option for tracking scroll in original element, but appling zoom to an extra dinamicly created element with absolute position.
