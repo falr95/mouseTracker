@@ -19,7 +19,7 @@ it's simple. Just instanciate MouseTracker object and then call setWatcher metho
    is an optional callback that would be called every time the user changes mouse position being over the element.
    
    zoomRatio:Number (optional):
-   zoomRatio is an optional parameter that represents the amount of zoom that will be applied to the element. it only works if
+   zoomRatio is an optional parameter that represents the amount of zoom that will be applied to the element, default is 2 (double size). it only works if
    enter and movement callbacks wasn't passed as parameter.
 
       
